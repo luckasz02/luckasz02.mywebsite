@@ -1181,25 +1181,15 @@ body.dark-theme {
   }
 
   .home__social {
-    position: static; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 1rem; 
-    margin: 1rem 0; 
+    position: static;
+    margin: 1rem 0;
+    gap: 1rem; /* Maintain consistent spacing */
   }
 
   .home__social-link {
-    background-color: var(--black-color-light);
-    color: var(--white-color);
-    font-size: 1.25rem;
-    width: 40px; 
-    height: 40px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    transition: background-color 0.3s;
+    font-size: 1.5rem; /* Slightly increase icon size for better visibility */
+    width: 40px; /* Ensure square icons */
+    height: 40px; /* Ensure square icons */
   }
 
   .home__social-link:hover {
