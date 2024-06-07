@@ -681,6 +681,16 @@ body.dark-theme {
   top: 0.5rem;
 }
 
+.about__description a {
+  color: var(--first-color);
+  font-weight: var(--font-medium);
+  transition: color 0.4s;
+}
+
+.about__description a:hover {
+  color: var(--title-color);
+}
+
 .about__list {
   list-style: square;
   color: var(--title-color);
